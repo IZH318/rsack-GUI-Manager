@@ -1,0 +1,1 @@
+# rsack-GUI-Manager
