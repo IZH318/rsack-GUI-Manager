@@ -156,70 +156,20 @@ proxy = false
 
 
 
-## 선택 작업
-**아래 작업은 필수 작업은 아니며, 필요에 따라 사용하시면 됩니다.** <BR><BR>
-
-**[선택 작업]** <BR>
-캐릭터 명을 모두 추출하고 싶다면 `05. Character List Export.py` 파일을 실행합니다. <BR><BR>
-![녹화_2024_05_31_20_34_50_160 mp4_snapshot_00 00 000](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/066c93b1-5395-470a-9478-e65e0b6f7f07) <BR>
-
-![ezgif-5-fbc7712a65](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/70735b26-c6c5-47c4-a7d7-6f5d0ca0f25a)
-
-<BR> <BR> <BR>
-
-
-
-**[선택 작업]** <BR>
-입력 한 캐릭터명 전체 또는 일부를 기준으로 대사 정보 및 Audio 파일 정보를 찾고싶다면 `06. Vocal Resource Info Export.py` 파일을 실행합니다. <BR><BR>
-![캡처_2024_05_31_21_53_33_344](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/0c190cf7-6d68-4967-9a0f-1e928fe35538) <BR>
-
-![ezgif-6-c9bead1666](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/dd55be38-851c-4400-a665-bcc946c43db4) <BR>
-
-예를 들어, 'コッコロ(=콧코로)'를 입력하지 않고, 'コ'만 입력 후 검색을 하면 모든 캐릭터 이름 중 'コ'가 포함 된 캐릭터 모두 결과값을 반환합니다. <BR>
-(📌 위 GIF에 녹화 된 내용 기준으로 'コッコロ(콧코로)', 'ペコリーヌ(=페코린느)', 'マコト(=마코토)', 'ミヤコ(=미야코)' 등 'コ'가 포함 된 결과가 출력 된 것을 확인할 수 있습니다.)
-
-<BR> <BR> <BR>
-
-
-
-**[선택 작업]** <BR>
-원본 Resource 파일을 모두 제거하려는 경우 `07. Original Resource Remover.bat` 파일을 실행하여 원본 Resource 파일을 제거합니다. <BR><BR>
-![녹화_2024_05_31_20_43_14_736 mp4_snapshot_00 00 263](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/81051272-7a83-4669-b01b-0b46f23747ac) <BR>
-![ezgif-6-5b02b54d9b](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/4fc88979-1fdd-4385-bf3e-876d0a022821)
-
-<BR> <BR> <BR>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## ⚙ 코드 수정 (선택)
 ### ※ 이 작업은 Python 언어로 작성 된 Script의 내용을 이해하고 응용할 수 있는 분들께 추천드리는 작업입니다. <BR><BR>
 
 ### ❗ 필수 작업 ❗ <BR>
 ![PRICONNE_EXTRACTION_TOOLS(Portable)_AIO 읽기전용 해제 지시](https://github.com/IZH318/PRICONNE_EXTRACTION_TOOLS_Portable/assets/99892351/33179bbf-4e0d-4624-9b1d-4e313879d2bb) <BR>
-제공 된 Python Script를 수정하고자 하는 파일 선택 후 `마우스 우클릭 -> 속성 -> 일반 -> 특성`항목 중 `읽기 전용(R)`상태 해제 후 확인 <BR><BR>
+제공 된 Python Script를 수정하고자 하는 파일 선택 후 `마우스 우클릭 -> 속성 -> 일반 -> 특성`항목 중 `읽기 전용(R)`상태 해제 후 확인 <BR> <BR> <BR> <BR>
 
-<BR> <BR> <BR>
+01. `https://www.genie.co.kr/detail/albumInfo?axnm=`로 시작하는 URL만 Que에 할당하는 기능 삭제 <BR> <BR>
+57번째 줄 `valid_urls = [url.strip() for url in urls if re.match(r'^https://www\.genie\.co\.kr/detail/albumInfo\?axnm=\d+$', url.strip())]` 코드를 `valid_urls = [url.strip() for url in urls]` 로 수정 <BR> <BR> <BR> <BR>
+
+
+
+02. 순차 다운로드(`다중 다운로드` 체크 박스 비 활성화)시 하나의 URL 처리 후 대기 시간 조절 <BR> <BR>
+141번째 줄 `time.sleep(1)` 코드 괄호 내 숫자 조절 (* 1 = 1초) <BR> <BR> <BR> <BR>
 
 
 
@@ -231,4 +181,4 @@ proxy = false
 
 
 ## Special Thanks to
-✨ Slyyxp ( https://github.com/Slyyxp ) <BR>
+✨ Slyyxp ( https://github.com/Slyyxp ) <BR> <BR> <BR> <BR>
