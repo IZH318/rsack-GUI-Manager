@@ -159,9 +159,9 @@ proxy = false
 ![_2024_07_12_05_28_49_89-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/822b7f8a-fd2c-40bb-9a44-7728223f919a) <BR>
 (📌 `log Clear`버튼 클릭) <BR> <BR> <BR> <BR>
 ![_2024_07_12_05_29_04_620-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e78a3c4f-f3af-4092-a949-39cf992b3845) <BR>
-(📌 `작업 후 입력 값 초기화`, `작업 완료시 알림` 체크 박스 활성화 후 `rsack 실행`버튼 클릭) <BR> <BR> <BR> <BR>
+(📌 `작업 후 입력 값 초기화`, `작업 완료시 알림` 체크 박스 활성화 후 `rsack 실행`버튼 클릭 (순차 다운로드)) <BR> <BR> <BR> <BR>
 ![_2024_07_12_05_29_33_396-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/838d7691-496b-48a6-bf56-dcadf455970a) <BR>
-(📌 `다중 다운로드` 체크 박스 활성화 후 `rsack 실행`버튼 클릭) <BR> <BR> <BR> <BR>
+(📌 `다중 다운로드` 체크 박스 활성화 후 `rsack 실행`버튼 클릭 (일괄 다운로드)) <BR> <BR> <BR> <BR>
 
 
 
