@@ -7,6 +7,7 @@ rsack를 GUI로 사용할 수 있게 만든 추가 파이썬 코드 입니다. <
 
 
 ## 🔍 주요 기능
+![_2024_07_12_06_20_12_366-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e7ac4509-6b29-413c-9c2e-df44ef3d2db0) <BR> <BR>
 ■ 단일 또는 다중 앨범 링크를 입력란에 작성하면 직접 명령어를 입력 할 필요 없이 모든 작업이 순차적 또는 일괄 처리 됩니다. <BR>
 **( ※ rsack의 자세한 기능은 https://github.com/Slyyxp/rsack 참고)** <BR>
 
@@ -74,16 +75,24 @@ or <BR>
 `python -m pip install --upgrade pip --user` <BR>
 <BR> <BR> <BR>
 4-2. **(필수) rsack Package 설치** <BR> <BR>
-`pip install rsack` <BR> <BR>
+`pip install rsack` <BR>
+or <BR>
+`python -m pip install rsack` <BR> <BR>
 **[ ※ 주의 ] 만약 위 명령어 사용 중 ERROR: Could not install packages due to an EnvironmentError: [WinError 5] 액세스가 거부되었습니다: (생략) Consider using the `--user` option or check the permissions. 과 같은 오류가 나왔다면 끝에 `--user`를 붙여서 입력** <BR> <BR>
-(* 권한 오류 발생시 사용) <BR>
+(* 권한 오류 발생시 두 코드 중 하나 선택) <BR>
 `pip install rsack --user` <BR>
+or <BR>
+`python -m pip install rsack --user` <BR>
 <BR> <BR> <BR>
 4-3. **(필수) BeautifulSoup4 설치** <BR> <BR>
-`pip install beautifulsoup4` <BR> <BR>
+`pip install beautifulsoup4` <BR>
+or <BR>
+`python -m pip install beautifulsoup4` <BR> <BR>
 **[ ※ 주의 ] 만약 위 명령어 사용 중 ERROR: Could not install packages due to an EnvironmentError: [WinError 5] 액세스가 거부되었습니다: (생략) Consider using the `--user` option or check the permissions. 과 같은 오류가 나왔다면 끝에 `--user`를 붙여서 입력** <BR> <BR>
-(* 권한 오류 발생시 사용) <BR>
+(* 권한 오류 발생시 두 코드 중 하나 선택) <BR>
 `pip install beautifulsoup4 --user` <BR>
+or <BR>
+`python -m pip install beautifulsoup4 --user` <BR>
 <BR> <BR> <BR>
 
 
@@ -97,7 +106,7 @@ or <BR>
 ![2024-07-12 04 51 28](https://github.com/user-attachments/assets/751b9658-0b1d-4848-8c59-e7a4604b6ce0) <BR>
 (📌 PC 계정 명이 User 인 경우 `C:\Users\User` 로 이동 후 rsack_settings.ini 생성 ) <BR> <BR> <BR> <BR>
 5-3. rsack_settings.ini 내용 작성 <BR> <BR>
-**[ ※ 주의 ] 반드시 https://github.com/Slyyxp/rsack/blob/master/rsack_settings.ini.example 전체 코드 기반으로 작업** <BR> <BR> <BR> <BR>
+**[ ※ 주의 ] 반드시 https://github.com/Slyyxp/rsack/blob/master/rsack_settings.ini.example 전체 코드 기반으로 작업** <BR> <BR>
 ![2024-07-12 05 06 58](https://github.com/user-attachments/assets/8d28ca3c-4583-4014-97b5-ab7b6e4f9d53) <BR>
 (📌 위 링크 이동 후 전체 본문 복사 후 붙여넣고 proxy 설정은 반드시 `proxy = false`로 수정) <BR> <BR>
 ![2024-07-12 04 28 25](https://github.com/user-attachments/assets/19c098fe-7a65-4723-a076-68e242de3400) <BR>
