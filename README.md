@@ -7,7 +7,7 @@ rsack를 GUI로 사용할 수 있게 만든 추가 파이썬 코드 입니다. <
 
 
 ## 🔍 주요 기능
-![_2024_07_12_06_20_12_366-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e7ac4509-6b29-413c-9c2e-df44ef3d2db0) <BR> <BR>
+![_2024_07_12_06_53_19_177-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e7c70d6a-1180-44b4-97c3-fd6b8a351a6b) <BR> <BR>
 ■ 단일 또는 다중 앨범 링크를 입력란에 작성하면 직접 명령어를 입력 할 필요 없이 모든 작업이 순차적 또는 일괄 처리 됩니다. <BR>
 **( ※ rsack의 자세한 기능은 https://github.com/Slyyxp/rsack 참고)** <BR>
 
