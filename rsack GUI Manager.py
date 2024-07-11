@@ -292,15 +292,9 @@ log Clear: 화면 하단 Log 값 모두 삭제
 
 
 def show_program_about():
-    show_program_about_text = """rsack GUI Manager
-Version 1.0
-Copyright © 2024 IZH0318. All rights reserved.
+    show_program_about_text = """rsack GUI Manager (Version 1.0)
 
-이 소프트웨어는 비상업적 목적으로만 자유롭게 사용할 수 있습니다.
-(This software is freely available for non-commercial purposes only.)
-
-이 소프트웨어의 사용으로 인해 발생하는 모든 문제에 대한 책임은 사용자 본인에게 있습니다.
-(You are responsible for any problems arising from the use of this Software.)
+Created by (Github) IZH318 in 2024.
 """
     messagebox.showinfo("정보(About)", show_program_about_text)
 
