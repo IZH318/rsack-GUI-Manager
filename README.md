@@ -50,10 +50,10 @@ or <BR> <BR>
 2. Python을 설치합니다. <BR> <BR>
 ![2024-07-12 04 27 14](https://github.com/user-attachments/assets/6cb0b356-e12f-4714-adde-30cd9850ec81) <BR>
 **[ ※ 주의 ] Python 설치 시 Add python.exe to PATH 에 반드시 체크 후 Install Now 클릭** <BR>
-(📌 미처 누르지 못했다면 설치파일을 다시 실행 또는 소프트웨어 제거 후 재 설치) <BR> <BR>
+(📌 미처 누르지 못했다면 설치 파일 다시 실행 또는 제거 후 재 설치) <BR> <BR>
 ![2024-07-12 04 27 26](https://github.com/user-attachments/assets/050db49e-0478-4f0f-9ce8-44fdef0cadc9) <BR>
 **[ ※ 주의 ] 설치 후 Disable path length limit 기능을 사용할 수 있도록 반드시 클릭** <BR>
-(📌 미처 누르지 못했다면 설치파일을 다시 실행 또는 소프트웨어 제거 후 재 설치) <BR> <BR> <BR> <BR>
+(📌 미처 누르지 못했다면 설치 파일 다시 실행 후 작업 또는 제거 후 재 설치) <BR> <BR> <BR> <BR>
 
 
 3. 모두 설치가 끝났다면 키보드 `Win + R` 또는 `시작 -> 검색`란에 `cmd`를 입력하여 cmd를 실행합니다. <BR> <BR>
