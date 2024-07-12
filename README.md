@@ -7,7 +7,7 @@
 
 
 ## 🔍 주요 기능
-![_2024_07_13_01_30_18_626-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/0286ab64-cfd0-4272-ab14-abe5368d80af) <BR> <BR>
+![_2024_07_13_06_04_44_540-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7218e004-5829-4d39-94b7-1f293de65789) <BR> <BR>
 ■ 단일 또는 다중 앨범 링크를 입력란에 작성하면 직접 명령어를 입력 할 필요 없이 모든 작업이 순차적 또는 일괄 처리 됩니다. <BR>
 **( ※ rsack의 자세한 기능은 https://github.com/Slyyxp/rsack 참고)** <BR>
 
