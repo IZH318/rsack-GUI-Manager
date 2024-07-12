@@ -291,6 +291,9 @@ def show_program_about():
     show_program_about_text = """rsack GUI Manager (Version 1.0)
 
 Created by (Github) IZH318 in 2024.
+
+이 소프트웨어의 사용으로 인해 발생하는 모든 문제에 대한 책임은 사용자 본인에게 있습니다.
+(This software's usage is solely the responsibility of the user for any issues that may arise.)
 """
     messagebox.showinfo("정보(About)", show_program_about_text)
 
