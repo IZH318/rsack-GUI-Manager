@@ -151,9 +151,7 @@ def disable_buttons():
     button_rsack.config(state=DISABLED)
     button_clear.config(state=DISABLED)
     entry.config(state=DISABLED)
-    checkbox.config(state=DISABLED)
     multi_album_checkbox.config(state=DISABLED)
-    notify_checkbox.config(state=DISABLED)
 
 
 
@@ -188,9 +186,7 @@ def enable_buttons():
     button_rsack.config(state=NORMAL)
     button_clear.config(state=NORMAL)
     entry.config(state=NORMAL)
-    checkbox.config(state=NORMAL)
     multi_album_checkbox.config(state=NORMAL)
-    notify_checkbox.config(state=NORMAL)
 
     # 체크 박스 상태 확인
     if delete_url_after_download.get():
