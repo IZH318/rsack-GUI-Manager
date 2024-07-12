@@ -1,5 +1,5 @@
 # rsack GUI Manager
-### rsack를 GUI로 사용할 수 있게 만든 추가 파이썬 코드 입니다. <BR>
+### rsack를 GUI로 사용할 수 있게 만든 Python Script 입니다. <BR>
 ### ( ※ rsack GUI Manager를 사용하려면 rsack가 설치되어 있어야 합니다.)
 
 <BR> <BR> <BR>
